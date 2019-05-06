@@ -8,16 +8,16 @@ playbooks: ansible playbook目录
 
 ## 初始化
 
-before start, we should set all server as login without password.
+Before start, we should set all server as login without password.
 
 just follow command:
 
 ```bash
 ssh-copy-id user@your-server-ip
 
+```
 ## 运行脚本
 
-```
 Then test ping:
 
 ```bash
