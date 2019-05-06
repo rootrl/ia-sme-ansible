@@ -1,0 +1,5 @@
+---
+- hosts: all
+  tasks:
+   - name: Install docker enviroment
+     script: scripts/docker.sh
