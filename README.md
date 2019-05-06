@@ -19,5 +19,14 @@ ssh-copy-id user@your-server-ip
 Then test ping:
 
 ```bash
-ansible -i inventories/test all -u root -m ping
+ansible -i inventories/test center -u root -m ping
+```
+And center server will response with:
+
+```bash
+[vagrant@localhost ansible]$ ansible -i inventories/test center -u root -m ping
+192.168.1.115 | SUCCESS => {
+    "changed": false,
+    "ping": "pong"
+}
 ```
