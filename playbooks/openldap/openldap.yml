@@ -1,0 +1,5 @@
+---
+- hosts: all
+  tasks:
+   - name: install openldap
+     script: scripts/openldap.sh
